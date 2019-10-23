@@ -63,7 +63,7 @@
     	VALUES(
     		format(GETDATE(),'yyyyMMddHHmmss'),
     		#{Name},
-    		(SELECT 'SODTOUR_' + REPLICATE('0', 4 - LEN(COUNT(*) + 1)) + CAST(COUNT(*) + 1 AS VARCHAR) AS CNT
+    		(SELECT 'MyTOUR_' + REPLICATE('0', 4 - LEN(COUNT(*) + 1)) + CAST(COUNT(*) + 1 AS VARCHAR) AS CNT
 			  FROM MEMBER
 			 WHERE JOIN_TYPE = 'NAVER'),
 			#{Email},

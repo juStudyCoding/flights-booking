@@ -68,7 +68,7 @@
 				<div class="chat-room mt" id=reqWin>
 					<aside class="mid-side">
 						<div class="chat-room-head">
-							<h3>댓글</h3>
+							<h3>comment</h3>
 						</div>
 						<div class="group-rom">
  							<INPUT TYPE="hidden" NAME="session_id" id="session_id" VALUE="${sessionScope.LoginInfo.no}"/>
@@ -120,7 +120,6 @@ $(document).ready(function() {
  	alert("send"+reply_no+ "update_check"+update_check);
  	if(update_check!=true){
  		document.getElementById("reply_no").value=-1;
-		alert("send_replyNo"+$('#reply_no').val());
 	}   
  	
 	$.ajax({
@@ -143,16 +142,13 @@ $(document).ready(function() {
 
 //댓글 업데이트
 function req_update(reply_no){
-	//alert("수정할 내용 입력해주세요.");
 	document.getElementById("reply_no").value=reply_no; 
 	update_check= true;
-	 alert("수정내용업데이트"+$('#reply_no').val() + "::::check:::::"+update_check);
 	$('#req_contents').focus();
 }
 
 //댓글 삭제
 function req_delete(){
-	//alert("delete_replyNo"+$("#reply_no").val());
 	if(!confirm("삭제하시겠습니까?")){
 		return 0;
 	}
@@ -167,8 +163,6 @@ function req_delete(){
 			},
         success: function(data){
         	 location.reload();
-        	//alert("success"+ data); 
-        	// $('#list').append("<p>"+data+"</p>") 
         },
         error: function(){
             alert("에러가 발생하였습니다.");

@@ -10,7 +10,7 @@
 <meta name="description" content="">
 <meta name="author" content="Dashboard">
 <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
-<title>Sod Tour ::</title>
+<title>My Tour ::</title>
 
 <!-- Favicons -->
 <link href="resources/img/favicon.png" rel="icon">
@@ -39,7 +39,7 @@
 			<div class="fa fa-bars tooltips" data-placement="right"></div>
 		</div>
 		<!--logo start-->
-		<a href="/main" class="logo"><b>Sod<span> Tour</span></b></a>
+		<a href="/main" class="logo"><b>My<span> Tour</span></b></a>
 		<!--logo end-->
 		<div class="top-menu">
 			<ul class="nav pull-right top-menu">

@@ -36,7 +36,7 @@
 	   		<input type="hidden" id="date" name="date"/> 
 	      	<div class="content-panel" style="display:flex; align-items: flex-top;">
 	         	<div class="calendar" style="float:left; width:40%; margin-bottom:10px;"></div> 
-		         <div id="seats" style="display:inline-block; margin-top:40px;" ></div>
+		         <div>seats: <div id="seats" style="display:inline-block; margin-top:40px;" ></div></div>
 		         <button type="button" id="reservbt" style="width: 120px; height: 180px; margin:50px 0 0 50px; background-color:black; color:#fff; font-size:20px; border-radius:10px 10px 10px 10px; " onclick="reservCheck()">Make a payment</button>
 	      	</div>
       </section>

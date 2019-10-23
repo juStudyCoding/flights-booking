@@ -10,7 +10,7 @@
 <meta name="description" content="">
 <meta name="author" content="Dashboard">
 <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
-<title>Sod Tour ::</title>
+<title>My Tour ::</title>
 
 <!-- Favicons -->
 <link href="resources/img/favicon.png" rel="icon">

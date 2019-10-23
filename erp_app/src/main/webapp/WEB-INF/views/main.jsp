@@ -115,7 +115,7 @@
         // (string | mandatory) the text inside the notification
         text: 'Click this. You can talk in real time with others. and You can share information with each other.',
         // (string | optional) the image to display on the left
-        image: 'img/ui-sam.jpg',
+        image: 'resources/img/friends/fr-05.jpg',
         // (bool | optional) if you want it to fade out on its own or just sit there
         sticky: true,
         // (int | optional) the time you want it to be alive for before fading out
